@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin sinh viên</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div class="form-group">
+            <label for="hoten">HỌ VÀ TÊN</label>
+            <input type="text" id="hoten" name="hoten" required tabindex="1">
+        </div>
+
+        <fieldset class="form-group">
+            <legend>GIỚI TÍNH</legend>
+            <input type="radio" id="nam" name="gioitinh" value="nam" tabindex="2">
+            <label for="nam">Nam</label>
+            <input type="radio" id="nu" name="gioitinh" value="nu" tabindex="2">
+            <label for="nu">Nữ</label>
+        </fieldset>
+
+        <div class="form-group">
+            <label for="ngaysinh">NGÀY SINH</label>
+            <input type="date" id="ngaysinh" name="ngaysinh" required tabindex="3">
+        </div>
+
+        <div class="form-group">
+            <label for="truong">TRƯỜNG</label>
+            <input type="text" id="truong" name="truong" value="FPT Polytechnic Hà Nội" readonly>
+        </div>
+
+        <div class="form-group">
+            <label for="monhoc">MÔN HỌC</label>
+            <select id="monhoc" name="monhoc" tabindex="4">
+                <option value="web">Xây dựng trang Web</option>
+                <option value="js-basic">Lập trình cơ sở với JavaScript</option>
+                <option value="js-advanced">Lập trình JavaScript nâng cao</option>
+                <option value="web-management">Quản trị website</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="diem">ĐIỂM</label>
+            <input type="number" id="diem" name="diem" min="0" max="10" step="0.5" required tabindex="5">
+        </div>
+
+        <fieldset class="form-group">
+            <legend>SỞ THÍCH</legend>
+            <input type="checkbox" id="docsach" name="sothich" value="docsach" tabindex="6">
+            <label for="docsach">Đọc sách</label>
+            <input type="checkbox" id="thethao" name="sothich" value="thethao" tabindex="6">
+            <label for="thethao">Thể thao</label>
+            <input type="checkbox" id="nghenhac" name="sothich" value="nghenhac" tabindex="6">
+            <label for="nghenhac">Nghe nhạc</label>
+            <input type="checkbox" id="xemphim" name="sothich" value="xemphim" tabindex="6">
+            <label for="xemphim">Xem phim</label>
+        </fieldset>
+
+        <div class="form-group">
+            <label for="ghichu">GHI CHÚ</label>
+            <textarea id="ghichu" name="ghichu" rows="3" tabindex="7"></textarea>
+        </div>
+
+        <div class="buttons">
+            <input type="submit" value="Lưu thông tin">
+            <input type="reset" value="Nhập lại">
+        </div>
+    </form>
+</body>
+</html>

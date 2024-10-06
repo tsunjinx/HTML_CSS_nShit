@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="xuly.php" method="post" enctype="multipart/form-data">
+        Tên Đăng Nhập <br>
+        <input type="text" name="" id="" placeholder="Nhập tên đăng nhập " tabindex="1">
+        <br><br>
+        Lớp<br>
+        <input type="text" name="" id="" readonly value="Web103">
+        <br><br>
+        Số Điện Thoại <br>
+        <input type="number" name="" id="" placeholder="Nhập mật khẩu " tabindex="2" required>
+        <br><br>
+        Mặt Khẩu <br>
+        <input type="password" name="" id="" tabindex="3">
+        <br><br>
+        Chọn ảnh <br>
+        <input type="file" name="" id="" tabindex="4">
+        <br><br>
+        Ngày sinh <br>
+        <input type="date" name="" id="">
+        <br><br>
+        Email <br>
+        <input type="email" name="" id="">
+        <br><br>
+        màu <br>
+        <input type="color" name="mausac" id="mausac">
+        <br><br>
+        Mức độ <br>
+        <input type="range" name="" id="">
+        <br><br>
+        Trình Duyệt <br>
+        <input list="browsers">
+        <datalist id="browsers">
+            <option value="Chorme"></option>
+            <option value="Cốc Cốc"></option>
+            <option value="Opera"></option>
+            <option value="Firefox"></option>
+        </datalist>
+        <fieldset>
+            <legend>Giới Tính</legend>
+            <label for="nam">Nam</label>
+            <input type="radio" name="gioi_tinh" id="nam"><br>
+            <label for="nu">Nữ</label>
+            <input type="radio" name="gioi_tinh" id="nu" checked><br>
+        </fieldset>
+
+        Sở Thích <br>
+        <input type="checkbox" name="sothich" id="" checked> Xem phim
+        <input type="checkbox" name="sothich" id=""> Đọc sách
+        <input type="checkbox" name="sothich" id="" checked> Đá bóng
+        <br><br>
+        Gửi dữ liệu lên biểu mẫu của máy chủ <br>
+        <input type="submit" value="Gửi Dữ liệu">
+        <br><br>
+        Nút <br>
+        <input type="button" value="Lưu Dữ Liệu">
+        <br><br>
+        Xóa dữ liệu <br>
+        <input type="reset" value="Xóa Dữ liệu" disabled>
+        <br><br>
+        Hình ảnh <br>
+        <input type="image" src="../Test01/Test01/img/sanpham.png" alt="">
+        <br><br>
+        Mô tả: <br>
+        <textarea name="" id="" rows="5"></textarea> <br>
+        <br>
+        Chọn Ca Học
+        <!-- cách 1 -->
+        <select name="" id="">
+            <option value="" hidden>Chọn Ca học</option>
+            <option value="1">Ca 1</option>
+            <option value="2">Ca 2</option>
+            <option value="3">Ca 3</option>
+            <option value="4">Ca 4</option>
+            <option value="5">Ca 5</option>
+        </select>
+        <br><br>
+        <!-- Cách 2 -->
+        <select name="" id="" multiple size="2">
+            <option value="" hidden>Chọn Ca học</option>
+            <option value="1">Ca 1</option>
+            <option value="2">Ca 2</option>
+            <option value="3">Ca 3</option>
+            <option value="4">Ca 4</option>
+            <option value="5">Ca 5</option>
+
+        </select>
+    
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h1 {
+    text-align: center;
+    color: rgb(27, 116, 168);
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+table {
+    border: collapse;
+    width: 100%;
+}
+th, td {
+    border: 2px solid rgb(65, 195, 224);
+    padding: 8px 12px;
+    text-align: center;
+}
+th {
+    background-color: rgb(27, 116, 168);
+    color: white;
+    font-weight: 500;
+}
+td {
+    background-color: #f6f6e7;
+}
+.average-score {
+    font-weight: bold;
+    color: red;
+}
+tr:hover td {
+    background-color: #eaeac8;
+}
