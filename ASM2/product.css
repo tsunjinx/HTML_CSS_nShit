@@ -218,3 +218,23 @@ footer {
 .payment-image {
     height: 24px;
 }
+.footer-payments {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.footer-payments a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-payments svg {
+    width: 40px;
+    height: 24px;
+}
+.footer-copyright {
+    text-align: center;
+    font-size: 14px;
+    color: #666666;
+}
